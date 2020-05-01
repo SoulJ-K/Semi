@@ -256,7 +256,7 @@
 					var $mNotd =  $("<input type='hidden' id='title1'>").attr('value', data[i].mNo);
 					
 // 					console.log($mtitle);
-					
+					console.log($movieTd);
 					
 					$tr.click(function(){
 						$mno = $(this).find('#title').val();

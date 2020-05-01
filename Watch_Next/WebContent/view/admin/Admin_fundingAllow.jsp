@@ -30,7 +30,7 @@
 	  	
 		$(window).scroll(function(){
 		    var navbar = $(this).scrollTop();
-		    console.log(navbar);
+// 		    console.log(navbar);s
 		    var header = $('header');
 		    if(navbar > 35){
 		        header.addClass('down');
