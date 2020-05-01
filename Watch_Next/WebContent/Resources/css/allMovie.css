@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+	#m_a{margin: 0 auto; 
+			margin-top: 10%;  
+			font-size: 20px; 
+			font-weight: bold; 
+			width: 80%;
+			}
+	
+	#m_title{color: white; display: inline;}
+	
+	#m_choice{
+	width: 120px;
+	margin-left: 83%;
+	height: 30px;
+    font-family: inherit;  /* 폰트 상속 */
+    background: url('') no-repeat 95% 50%; /* 네이티브 화살표를 커스텀 화살표로 대체 */
+    border: 1px solid #999;
+    border-radius: 8px; /* iOS 둥근모서리 제거 */
+    color: white;}
+    #m_choice option{
+    	background: #545357;
+    }
+
+	
+	.hline{ border: 0;  height: 1px;  background: red;}	
+	
+	#m_poster{margin: 0 auto; 
+			font-size: 20px;
+ 			border-collapse: separate;
+			border-spacing: 80px 100px;
+	}
+	#m_poster td{
+	box-shadow:0.5px 0.1px 4px 0.5px black;
+	}
+	#m_poster td:hover{
+		box-shadow:0.5px 0.1px 4px 0.5px red;
+		transition: box-shadow 0.5s;
+	}
+	#m_poster img{
+	border-bottom: 1px solid white;
+	}
+	#m_poster b{
+		color:white;
+		font-size: 17px;
+	}
+	.a_tag{
+		font-size: 12px;
+	}
+	/* .m_t{
+	width: 900px;} */
+		
+	.m_p{
+		width: 180px; height: 250px;
+	}
+
+.list_n_menu {padding:3px; MARGIN:3px; TEXT-ALIGN: center}
+.list_n_menu a {padding:5px 8px 4px 8px; MARGIN: 2px; BORDER: #ccc 1px solid; COLOR: white; TEXT-DECORATION: none}
+.list_n_menu a:hover {BORDER:red 1px solid; COLOR: red;}
+.list_n_menu a:active {BORDER:red 1px solid; COLOR: red;}
+.list_n_menu.current {BORDER: gray 1px solid; padding:5px 8px 4px 8px; FONT-WEIGHT: bold; MARGIN: 2px; COLOR: gray;}
+.list_n_menu.prev {BORDER: white 1px solid; padding:5px 8px 4px 8px; MARGIN: 2px; COLOR: white;}

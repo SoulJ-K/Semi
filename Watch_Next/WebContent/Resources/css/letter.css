@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body{background: #545357;}
+#letter_top{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	
+}
+#letter_top li{
+	color: white;
+	float: left;
+	margin-right: 40px;
+}
+#letter_list{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+#letter_list td{
+	color: white;
+}
+.l_l_choise{width: 100px;}
+.l_l_nick{width: 200px;}
+.l_l_name{width: 180px;}
+.l_l_time{width: 140px;}
+.l_l_state{width: 80px;}
+#letter_contents{
+	color: white;
+	font-size:1.2em;
+	text-align:center;
+}
+.letter_checkbox{
+	width: 16px;
+	height: 16px;
+}
+#l_t_choise{width: 60px;}
+#l_t_nick{
+	width: 140px; 
+	text-align:center;
+}
+#l_t_name{
+	width: 370px; 
+	text-align:center;
+}
+#l_t_time{
+	width: 250px; 
+	text-align:center;
+}
+#letter_delet{float: right;}
+#letter_delete{float: right;}
+
+#letter_send{
+	float:right;
+}
+.pagingArea button{
+	color: white; 
+	background: red; 
+	border: 0px; 
+	border-radius: 5px;
+	height: 25px;
+	}
+.btn{
+   box-shadow:inset 0px 1px 0px 0px #f5978e;
+   background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+   background-color:#f24537;
+   border-radius:6px;
+   border:1px solid #db1f11;
+   display:inline-block;
+   cursor:pointer;
+   color:#ffffff;
+   font-family:Arial;
+   font-size:15px;
+   font-weight:bold;
+   padding:6px 18px;
+   text-decoration:none;
+   text-shadow:0px 1px 0px #810e05;
+}
+.btn:hover {
+   background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+   background-color:#c62d1f;
+}
+.btn:active {
+   position:relative;
+   top:1px;
+}
